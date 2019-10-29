@@ -11,4 +11,6 @@ while (y < height):
     Message += chr(BlueVal)
     y += 1
 
-print(Message)
+path = "C:\\Users\\Alex Richard\\Github\\nbbc-hack-a-thon\\decoder\\message.txt"
+newf = open(path, 'w')
+newf.write(Message)
