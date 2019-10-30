@@ -15,5 +15,5 @@ data = s.recv(BUFFER_SIZE)
 s.close()
 
 path = "C:\\nbcc-hack-a-thon\\image.png"
-newf = open(path,'wb')
+newf = open(path, 'wb')
 newf.write(data)
